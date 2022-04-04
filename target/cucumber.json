@@ -1,0 +1,141 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1082354700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Techfios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2368552900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User should be able to login with valid credentials from Database",
+        "description": "",
+        "id": "techfios-billing-login-functionality-validation;user-should-be-able-to-login-with-valid-credentials-from-database",
+        "after": [
+          {
+            "result": {
+              "duration": 720029600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3599587800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters \"username\" from database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_from_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3116813200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters \"password\" from database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_from_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4471965000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3223805900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@TF_login2"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios billing Login Functionality Validation",
+    "description": "",
+    "id": "techfios-billing-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/TechfiosLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Loginfeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
