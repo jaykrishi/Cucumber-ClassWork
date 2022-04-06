@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -55,6 +56,16 @@ public class TestBase {
 			e.printStackTrace();
 		}
 
+	}
+	
+	public String getPageTitle() {
+		  return driver.getTitle();
+		 }
+	
+	public int generateRandom(int bounderyNum) {
+		Random rnd = new Random();
+		int generatedNum = rnd.nextInt(bounderyNum);
+		return generatedNum;
 	}
 
 }

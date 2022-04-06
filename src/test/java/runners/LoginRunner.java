@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 	
 	features = {"classpath:features"},	
 	glue = "steps",
-	tags = " @TF_login2",
+	tags = " @BankCash",
 	monochrome = true,
 	dryRun = false,
 	plugin = {
