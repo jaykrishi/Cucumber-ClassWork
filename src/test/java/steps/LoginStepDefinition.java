@@ -2,6 +2,7 @@
 package steps;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
 import cucumber.api.java.After;
@@ -12,6 +13,7 @@ import cucumber.api.java.en.When;
 import pages.BankCashNewAccountPage;
 import pages.DashboardPage;
 import pages.DatabasePage;
+import pages.ListBankCashAccount;
 import pages.LoginPage;
 import pages.TestBase;
 
@@ -21,11 +23,15 @@ public class LoginStepDefinition extends TestBase {
 	DatabasePage databasepage;
 	DashboardPage dashboardPage;
 	BankCashNewAccountPage bankcashNewPage;
+	ListBankCashAccount listbankcashPage;
 
 	@Before
 	public void setUp() {
 		initDriver();
 		loginPage = PageFactory.initElements(driver, LoginPage.class);
+		dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
+		bankcashNewPage = PageFactory.initElements(driver, BankCashNewAccountPage.class);
+		listbankcashPage = PageFactory.initElements(driver, ListBankCashAccount.class);
 	}
 
 	@Given("^User is on Techfios login page$")
@@ -85,7 +91,7 @@ public class LoginStepDefinition extends TestBase {
 			e.printStackTrace();
 		}
 		// takeScreenShot(driver);
-		dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
+		
 
 	}
 
@@ -141,7 +147,10 @@ public class LoginStepDefinition extends TestBase {
 
 	@Then("^User should be able to validate account created successfully$")
 	public void user_should_be_able_to_validate_account_created_successfully() {
-		Assert.assertEquals("Accounts- iBilling", getPageTitle());
+		
+		
+		listbankcashPage.getAccountHeader();
+		
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -163,8 +172,7 @@ public class LoginStepDefinition extends TestBase {
 
 		case "newAccountMenu":
 			dashboardPage.clickNewAccount();
-			bankcashNewPage = PageFactory.initElements(driver, BankCashNewAccountPage.class);
-
+			
 			break;
 
 		case "submitButton":

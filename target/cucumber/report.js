@@ -126,7 +126,7 @@ formatter.examples({
         "demo@techfios.com",
         "abc123",
         "sav",
-        "asdafafdaf",
+        "My Savings",
         "2000",
         "200",
         "Jackie",
@@ -140,7 +140,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2668718900,
+  "duration": 3106035300,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,7 +208,7 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
-  "name": "User enters description as \"asdafafdaf\" in accounts page",
+  "name": "User enters description as \"My Savings\" in accounts page",
   "matchedColumns": [
     3
   ],
@@ -268,7 +268,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_techfios_login_page()"
 });
 formatter.result({
-  "duration": 1417064900,
+  "duration": 2812861000,
   "status": "passed"
 });
 formatter.match({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_username_as(String)"
 });
 formatter.result({
-  "duration": 3172465700,
+  "duration": 3183092800,
   "status": "passed"
 });
 formatter.match({
@@ -294,21 +294,21 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 3093829000,
+  "duration": 3134210800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_signin_button()"
 });
 formatter.result({
-  "duration": 4444263400,
+  "duration": 5860214400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
 });
 formatter.result({
-  "duration": 3010266000,
+  "duration": 3020705800,
   "status": "passed"
 });
 formatter.match({
@@ -321,7 +321,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 98682600,
+  "duration": 101980600,
   "status": "passed"
 });
 formatter.match({
@@ -334,7 +334,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 957749600,
+  "duration": 977929500,
   "status": "passed"
 });
 formatter.match({
@@ -347,20 +347,20 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_accountTitle_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3108152600,
+  "duration": 3137595600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "asdafafdaf",
+      "val": "My Savings",
       "offset": 28
     }
   ],
   "location": "LoginStepDefinition.user_enters_description_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3141047000,
+  "duration": 3142571200,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_initialBalance_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3152868600,
+  "duration": 3142508000,
   "status": "passed"
 });
 formatter.match({
@@ -386,7 +386,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_accountNumber_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3131605400,
+  "duration": 3135667600,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +399,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_contactPerson_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3115163400,
+  "duration": 3130258300,
   "status": "passed"
 });
 formatter.match({
@@ -412,7 +412,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_Phone_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3130748000,
+  "duration": 3146354700,
   "status": "passed"
 });
 formatter.match({
@@ -425,7 +425,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_internetBankingUrl_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3160936600,
+  "duration": 3213094000,
   "status": "passed"
 });
 formatter.match({
@@ -438,18 +438,18 @@ formatter.match({
   "location": "LoginStepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 894115500,
+  "duration": 1635314700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 3260420200,
+  "duration": 6410968400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 811253000,
+  "duration": 830018600,
   "status": "passed"
 });
 });
