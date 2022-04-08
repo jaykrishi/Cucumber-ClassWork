@@ -1,3 +1,4 @@
+pages\ListBankCashAccount.class
 pages\LoginPage.class
 pages\DashboardPage.class
 pages\BankCashNewAccountPage.class
