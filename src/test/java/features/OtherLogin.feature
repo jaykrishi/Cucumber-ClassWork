@@ -1,4 +1,4 @@
-@OtherLoginFeature @Regression
+@Regression
 Feature: TechFios billing Other Login Functionality Validation
 
   Background: 

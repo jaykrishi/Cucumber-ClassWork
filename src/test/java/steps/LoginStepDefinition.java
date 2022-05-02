@@ -102,11 +102,7 @@ public class LoginStepDefinition extends TestBase {
 
 	}
 
-	@After
-	public void tearDown() {
-		 driver.close();
-		 driver.quit();
-	}
+	
 
 	@When("^User enters accountTitle as \"([^\"]*)\" in accounts page$")
 	public void user_enters_accountTitle_as_in_accounts_page(String accountTitle) {

@@ -26,6 +26,11 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 	}
+	
+	public static void tearDown() {
+		driver.close();
+		driver.quit();
+	}
 
 	public void takeScreenShot(WebDriver driver) {
 		TakesScreenshot ts = (TakesScreenshot) driver;

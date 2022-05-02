@@ -1,6 +1,7 @@
+@Regression @BankCash
 Feature: Techfios bank and cash New Account Functionality
 
-  @BankCash
+  
   Scenario Outline: User should be able to login with valid credentials
                    and open a new account
 
